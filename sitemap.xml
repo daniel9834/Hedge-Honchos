@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
+  <url><loc>https://www.hedgehonchos.com.au/</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/about.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/services.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/commercial.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/areas.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/contact.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Garden Maintenance service pages -->
+  <url><loc>https://www.hedgehonchos.com.au/lawn-mowing.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/lawn-care.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/hedge-trimming.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/garden-cleanup.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/weed-control.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/tree-trimming.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/tree-removal.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/mulch-installation.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/planting.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Property Maintenance service pages -->
+  <url><loc>https://www.hedgehonchos.com.au/pressure-cleaning.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/gutter-cleaning.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/exterior-house-cleaning.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Commercial Caretaking service pages -->
+  <url><loc>https://www.hedgehonchos.com.au/commercial-property-maintenance.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/commercial-gardening-services.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/strata-maintenance.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/school-maintenance.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/kindergarden-maintenance.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/shopfront-maintenance.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/age-care-maintenance.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/pre-inspection-cleaning.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.hedgehonchos.com.au/pre-sale-cleaning.html</loc><lastmod>2025-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+</urlset>

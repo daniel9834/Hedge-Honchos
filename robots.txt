@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.hedgehonchos.com.au/sitemap.xml
