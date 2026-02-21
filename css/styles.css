@@ -703,6 +703,13 @@ h1, h2, h3, h4 {
     line-height: 1.75;
 }
 
+/* ═══════════ LEAFLET MAP FIX ═══════════ */
+/* Global box-sizing reset breaks Leaflet tiles — reset inside container */
+.leaflet-container { box-sizing: border-box; }
+.leaflet-container * { box-sizing: content-box; }
+.leaflet-container *::before,
+.leaflet-container *::after { box-sizing: content-box; }
+
 /* ═══════════ SEO CONTENT SECTIONS ═══════════ */
 
 .section h2,
