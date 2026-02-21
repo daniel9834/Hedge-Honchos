@@ -703,6 +703,44 @@ h1, h2, h3, h4 {
     line-height: 1.75;
 }
 
+/* ═══════════ SEO CONTENT SECTIONS ═══════════ */
+
+.section h2,
+.section-alt h2 {
+    font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+    color: var(--forest);
+    margin-bottom: 28px;
+}
+
+.section ul,
+.section-alt ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 760px;
+}
+
+.section ul li,
+.section-alt ul li {
+    padding-left: 28px;
+    position: relative;
+    font-size: 0.975rem;
+    line-height: 1.7;
+    color: var(--soil-light);
+}
+
+.section ul li::before,
+.section-alt ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--sage);
+    font-weight: 700;
+}
+
 /* ═══════════ ABOUT / WHY US ═══════════ */
 
 .about {
