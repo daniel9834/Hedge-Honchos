@@ -143,38 +143,38 @@
                 <h2>Our Service Area</h2>
                 <p>Based in Viewbank &#8212; we travel within approximately 20km for all jobs. The map below shows our general coverage zone.</p>
             </div>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
             <div class="fade-up" style="border-radius:16px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,.08);">
                 <div id="service-map" style="width:100%; height:420px;"></div>
             </div>
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLI=" crossorigin=""></script>
             <script>
-                function initMap() {
-                    var viewbank = { lat: -37.7354, lng: 145.0862 };
-                    var map = new google.maps.Map(document.getElementById('service-map'), {
+                (function() {
+                    var viewbank = [-37.7354, 145.0862];
+                    var map = L.map('service-map', {
                         center: viewbank,
                         zoom: 11,
-                        gestureHandling: 'cooperative',
-                        mapTypeControl: false,
-                        streetViewControl: false,
-                        fullscreenControl: false
+                        scrollWheelZoom: false,
+                        zoomControl: true
                     });
-                    new google.maps.Circle({
-                        map: map,
-                        center: viewbank,
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                        maxZoom: 19
+                    }).addTo(map);
+                    L.circle(viewbank, {
                         radius: 20000,
-                        strokeColor: '#3a5a2a',
-                        strokeOpacity: 0.8,
-                        strokeWeight: 2,
+                        color: '#3a5a2a',
+                        weight: 2,
+                        opacity: 0.8,
                         fillColor: '#3a5a2a',
                         fillOpacity: 0.1
-                    });
-                    new google.maps.Marker({
-                        position: viewbank,
-                        map: map,
-                        title: 'Hedge Honchos — Viewbank VIC'
-                    });
-                }
+                    }).addTo(map);
+                    L.marker(viewbank)
+                        .addTo(map)
+                        .bindPopup('<strong>Hedge Honchos</strong><br>Viewbank VIC 3084')
+                        .openPopup();
+                })();
             </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBErgFVs6LdT0WWRhe_4-U0zYsmS-4JhYw&callback=initMap" async defer></script>
         </div>
     </section>
 
